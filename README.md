@@ -10,3 +10,9 @@
 ## Запуск тестов
 
 `dotnet test Freelance.Tests/Freelance.Tests.csproj`
+
+## Структура проекта
+
+- `Freelance.Core` — логика переходов между состояниями проекта.
+- `Freelance.Demo` — консольная демонстрация.
+- `Freelance.Tests` — модульные тесты NUnit.
